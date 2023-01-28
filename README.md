@@ -105,13 +105,13 @@ To run tests, run the following command:
 
 - GitHub: [![demix007](https://img.shields.io/badge/-demix007-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/demix007)
 - Twitter: [![dat_dope_demix](https://img.shields.io/badge/-dat_dope_demix-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/dat_dope_demix)
-- LinkedIn: [![ayodeji-abidemi](https://img.shields.io/badge/-ayodeji-abidemi-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://linkedin.com/in/ayodeji-abidemi)
+- LinkedIn: [![ayodeji-abidemi](https://img.shields.io/badge/-AyodejiAbidemi-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://linkedin.com/in/ayodeji-abidemi)
 
 👤 **Rashid Menhas**
 
-- GitHub: [![Rashid](https://img.shields.io/badge/-rahid-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/demix007)
-- Twitter: [![Menhas](https://img.shields.io/badge/-menhas-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/dat_dope_demix)
-- LinkedIn: [![rashid-menhas](https://img.shields.io/badge/-rashid-menhas-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://linkedin.com/in/ayodeji-abidemi)
+- GitHub: [![Rashid](https://img.shields.io/badge/-RashidMenhas-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/RashidMenhas)
+- Twitter: [![Menhas](https://img.shields.io/badge/-RashidMenhas-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/RashidMenhas)
+- LinkedIn: [![rashid-menhas](https://img.shields.io/badge/-RashidMenhas-white?logo=LinkedIn&logoColor=181717&style=plastic)](linkedin.com/in/rashid-menhas)
 
 
 
