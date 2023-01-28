@@ -15,5 +15,15 @@ describe Solver do
                 expect(@solver.factorial(0)).to eq(1)
             end
         end
+
+        context 'when a negative number is provided' do
+            it 'should raise an exception' do
+              expect { @solver.factorial(-5) }.to raise_error('Enter a Positive Number')
+            end
+        end
     end 
+
+    describe '#Reverse' do
+        
+    end
 end
