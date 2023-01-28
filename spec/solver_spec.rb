@@ -24,6 +24,10 @@ describe Solver do
     end 
 
     describe '#Reverse' do
-        
+       context 'Whenever a string is given' do
+            it 'reverses the order of the characters of the string' do
+                expect(@solver.reverse('microverse')).to eq('esrevorcim')
+            end
+        end 
     end
 end
