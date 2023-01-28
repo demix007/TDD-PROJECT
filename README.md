@@ -1,67 +1,155 @@
-# Ruby Course
+# 📗 Table of Contents
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+## 📖 TDD-project<a name="about-project"></a>
 
-## Set-up Rubocop GitHub Action
+ TEST DRIVEN DEVELOPMENT(TDD)
 
-[Rubocop](https://www.rubocop.org/) is a Ruby static code analyzer (a.k.a. linter) and code formatter. It will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://rubystyle.guide/).
+ 
 
-This GitHub Action is going to run [Rubocop](https://docs.rubocop.org/en/stable/) to help you find style issues.
+## 🛠 Built With <a name="built-with"></a>
 
-Please do the following **steps in this order**:
+### Tech Stack <a name="tech-stack"></a>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+<details>
+<summary>Backend</summary>
+  <ul>
+    <li><a href="https://www.ruby.org/">Ruby</a></li>
+  </ul>
+</details>
 
-![gh actions checks](../assets/images/gh-actions-rubocop-linters-checks.png)
+### Key Features <a name="key-features"></a>
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+- **Key_feature**
+- **Key_feature**
+- **Key_feature**
 
-![gh actions failing checks](../assets/images/gh-actions-rubocop-failing-checks.png)
 
-## [OPTIONAL]Set-up RSpec GitHub Action
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can run your tests with GitHub Actions to ensure that they are passing before merging a PR.
+<!-- LIVE DEMO -->
 
-To use the GitHub Action to run your tests, please do the following **steps in this order**:
+## 🚀 Live Demo <a name="live-demo"></a>
 
-1. Add a copy of [`.github/workflows/tests.yml`](.github/workflows/tests.yml) to your `.github/workflows` folder.
-    - **Remember** to use the file linked above
-    - Do not modify or delete the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) file that should already be in that folder.
-    - RSpec by default will try to run any file ending in `_spec.rb` inside the `spec` folder. Make sure to follow this convention for your tests files so `rspec` can run your spec files.
-    - You can modify the [`.github/workflows/tests.yml`](.github/workflows/tests.yml) file to better fit your custom needs.
-3. When you open your pull request you should see the result of the GitHub Action:
+- [Coming soon...](https://github.com/demix007/TDD.io)
 
-![gh actions checks](../assets/images/gh-actions-rspec-tests-checks.png)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Click on the `Details` link of the test action to check the results of your tests.
+<!-- GETTING STARTED -->
 
-## Set-up linters in your local env
+## 💻 Getting Started <a name="getting-started"></a>
 
-### [RuboCop](https://docs.rubocop.org/en/stable/)
+To get a local copy up and running follow these simple example steps.
 
-1. Add this line to the `Gemfile`
-    ```
-    gem 'rubocop', '>= 1.0', '< 2.0'
-    ```
-    *not sure how to use Gemfile? Read [this](https://bundler.io/v1.15/guides/bundler_setup.html).*
-2. Run `bundle install`.
-3. Copy [.rubocop.yml](./.rubocop.yml) to the root directory of your project
-4. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-5. Run `rubocop`.
-6. Fix linter errors.
-7. **IMPORTANT NOTE**: feel free to research [auto-correct options for Rubocop](https://rubocop.readthedocs.io/en/latest/auto_correct/) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+- copy this link <git@github.com:demix007/TDD-PROJECT.git>
+- get the directory that you want to clone the repository.
 
-## Troubleshooting
+### Prerequisites
 
-- While using Colorize gem, if you are facing errors with Rspec related to 
-    ```bash
-    LoadError:
-    cannot load such file -- colorize
-    ```
-    please remove ```--deployment``` from line no. [26](https://github.com/shubham14p3/Ruby-capstone-project/blob/ca86784cc88bea7c933e329c0953f07e21bcf6ca/.github/workflows/tests.yml#L16) of test.yml file.
+In order to run this project you need:
+
+- A Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
+- Ruby installed on the Computer
+
+### Setup
+
+open the command prompt in this directory.
+- write git clone <git@github.com:demix007/TDD-PROJECT.git>
+- create a directory in your preferred location (e.g in the Desktop or Document directory)
+
+### Install
+
+Install this project with:
+
+- Dependencies _(a packet manager is required)_: then you run the command `bunsle install` in the terminal
+
+### Usage
+
+To run the project, execute the following command:
+
+- `ruby -the name of the file-`
+- This will run the project in the terminal in the specified directory
+
+### Run tests
+
+To run tests, run the following command:
+
+- `rspec`
+- This will run all tests on your local machine
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Ayodeji Abidemi**
+
+- GitHub: [![demix007](https://img.shields.io/badge/-demix007-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/demix007)
+- Twitter: [![dat_dope_demix](https://img.shields.io/badge/-dat_dope_demix-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/dat_dope_demix)
+- LinkedIn: [![ayodeji-abidemi](https://img.shields.io/badge/-ayodeji-abidemi-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://linkedin.com/in/ayodeji-abidemi)
+
+👤 **Rashid Menhas**
+
+- GitHub: [![Rashid](https://img.shields.io/badge/-rahid-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/demix007)
+- Twitter: [![Menhas](https://img.shields.io/badge/-menhas-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/dat_dope_demix)
+- LinkedIn: [![rashid-menhas](https://img.shields.io/badge/-rashid-menhas-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://linkedin.com/in/ayodeji-abidemi)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> To be added later
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/demix007/TDD-PROJECT/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project 😄, a star would be a nice gift from you :astronaut:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+A big thanks to the [Microverse Team](https://www.microverse.org)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
