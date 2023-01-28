@@ -30,4 +30,20 @@ describe Solver do
             end
         end 
     end
+
+    describe 'FizzBuzz' do
+        context 'Whenever an integer(N) is provided' do
+            it 'returns "fizz" if N is divisible by 3 without a remainder' do
+                expect(@solver.fizzbuzz(9)).to eq('fizz')
+            end
+
+            it 'returns "buzz" if N is divisible by 5 without a remainder' do
+                expect(@solver.fizzbuzz(25)).to eq('buzz')
+            end
+
+            it 'returns "fizzbuzz" if N is divisible by 3 without a remainder' do
+                expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+            end
+        end
+    end
 end
