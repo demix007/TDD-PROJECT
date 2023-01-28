@@ -36,9 +36,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Key_feature**
-- **Key_feature**
-- **Key_feature**
+- Method to find factorial of any number
+- Method to reverse Strings
+- FizzBuzz Method
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +121,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> To be added later
+> Add and remove tests
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
