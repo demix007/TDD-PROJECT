@@ -31,7 +31,7 @@ describe Solver do
         end 
     end
 
-    describe 'FizzBuzz' do
+    describe '#FizzBuzz' do
         context 'Whenever an integer(N) is provided' do
             it 'returns "fizz" if N is divisible by 3 without a remainder' do
                 expect(@solver.fizzbuzz(9)).to eq('fizz')
@@ -43,6 +43,10 @@ describe Solver do
 
             it 'returns "fizzbuzz" if N is divisible by 3 without a remainder' do
                 expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+            end
+
+            it 'returns a string if N is neither divisible by 3 0r 5' do
+                expect(@solver.fizzbuzz(32)).to eql '32'
             end
         end
     end
